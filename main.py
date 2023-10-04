@@ -6,7 +6,7 @@ from tkinter import filedialog
 
 main_directory = None
 
-Extension = "jpg" # images desired file extension
+Extension = "jpg" or "png" # images desired file extension
 
 def select_directory():
     global main_directory
